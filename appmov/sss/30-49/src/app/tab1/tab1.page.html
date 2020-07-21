@@ -1,0 +1,464 @@
+
+
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-button>Default</ion-button>
+      <ion-title>Cabecera segunda actividad</ion-title>
+      <ion-button class="ion-float-right">EDIT</ion-button>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding">
+
+    <h1>boton con enlace</h1>
+    <ion-button color="dark"><a href="#">Aprietame</a></ion-button>
+
+    <h1>anchos de botones</h1>
+    <ion-button expand="full">Full Button</ion-button>
+    <ion-button expand="block">Block Button</ion-button>
+
+    <h1>tamaños de los botones</h1>
+    <ion-button size="large">Large</ion-button>
+    <ion-button>Default</ion-button>
+    <ion-button size="small">Small</ion-button>
+
+    <h1>Botones con iconos</h1>
+
+    <ion-button>
+  <ion-icon slot="start" name="star"></ion-icon>
+  Left Icon
+</ion-button>
+
+<ion-button>
+  Right Icon
+  <ion-icon slot="end" name="star"></ion-icon>
+</ion-button>
+
+<ion-button>
+  <ion-icon slot="icon-only" name="star"></ion-icon>
+</ion-button>
+
+<h1>mas botones</h1>
+<ion-button>
+  <ion-icon slot="icon-only" name="home"></ion-icon>
+</ion-button>
+
+<ion-button>
+  <ion-icon slot="icon-only" name="chevron-left"></ion-icon>
+</ion-button>
+
+<ion-button>
+  <ion-icon slot="icon-only" name="gear-a"></ion-icon>
+</ion-button>
+
+<h1>Botones en cabeceras o en pies de página</h1>
+
+
+<H1>Barra de botones</H1>
+
+
+
+<div class="">
+  
+   <ion-button color="dark">f</ion-button>
+    <ion-button color="dark">s</ion-button>
+     <ion-button color="dark">t</ion-button>
+</div>
+
+
+<h1>listas</h1>
+<ion-list>
+  <ion-item>
+    <ion-label>Pokémon Yellow</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>Mega Man X</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>The Legend of Zelda</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>Pac-Man</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>Super Mario World</ion-label>
+  </ion-item>
+</ion-list>
+
+
+<h1>Listados mediante enlaces</h1>
+
+
+<ion-list>
+  <ion-item>
+    <ion-label><a href="#">1</a></ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label><a href="#">2</a></ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>T<a href="#">3</a></ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>Pac-Man</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>Super Mario World</ion-label>
+  </ion-item>
+</ion-list>
+
+
+
+<h1>Separadores</h1>
+<ion-list>
+  <ion-list-header lines="inset">
+    <ion-label>Trending</ion-label>
+  </ion-list-header>
+  <ion-item>
+    <ion-label color="primary">
+      <h1>harry styles</h1>
+    </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label color="primary">
+      <h1>christmas</h1>
+    </ion-label>
+  </ion-item>
+  <ion-item lines="none">
+    <ion-label color="primary">
+      <h1>falling</h1>
+    </ion-label>
+  </ion-item>
+</ion-list>
+
+
+<h1>Listados con iconos</h1>
+
+<ion-list>
+  <ion-item>
+   <ion-icon name="airplane-outline"></ion-icon>
+  </ion-item>
+  <ion-item>
+    <ion-icon name="aperture-outline"></ion-icon>
+  </ion-item>
+  <ion-item>
+   <ion-icon name="arrow-redo-outline"></ion-icon>
+  </ion-item>
+  <ion-item>
+    <ion-icon name="battery-full-outline"></ion-icon>
+  </ion-item>
+  <ion-item>
+  <ion-icon name="cafe-outline"></ion-icon>
+  </ion-item>
+</ion-list>
+
+
+<h1>avatares</h1>
+
+
+
+<ion-avatar>
+  <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+</ion-avatar>
+
+<ion-chip>
+  <ion-avatar>
+    <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+  </ion-avatar>
+  <ion-label>Chip Avatar</ion-label>
+</ion-chip>
+
+<ion-item>
+  <ion-avatar slot="start">
+    <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+  </ion-avatar>
+  <ion-label>Item Avatar</ion-label>
+</ion-item>
+
+
+<h1>thumbnails</h1>
+
+
+<ion-thumbnail>
+  <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+</ion-thumbnail>
+
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+  </ion-thumbnail>
+  <ion-label>Item Thumbnail</ion-label>
+</ion-item>
+
+<h1>tarjetas</h1>
+
+
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    <ion-card-title>Card Title</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    Keep close to Nature's heart... and break clear away, once in awhile,
+    and climb a mountain or spend a week in the woods. Wash your spirit clean.
+  </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <ion-item>
+    <ion-icon name="pin" slot="start"></ion-icon>
+    <ion-label>ion-item in a card, icon left, button right</ion-label>
+    <ion-button fill="outline" slot="end">View</ion-button>
+  </ion-item>
+
+  <ion-card-content>
+    This is content, without any paragraph or header tags,
+    within an ion-card-content element.
+  </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <ion-item href="#" class="ion-activated">
+    <ion-icon name="wifi" slot="start"></ion-icon>
+    <ion-label>Card Link Item 1 activated</ion-label>
+  </ion-item>
+
+  <ion-item href="#">
+    <ion-icon name="wine" slot="start"></ion-icon>
+    <ion-label>Card Link Item 2</ion-label>
+  </ion-item>
+
+  <ion-item class="ion-activated">
+    <ion-icon name="warning" slot="start"></ion-icon>
+    <ion-label>Card Button Item 1 activated</ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-icon name="walk" slot="start"></ion-icon>
+    <ion-label>Card Button Item 2</ion-label>
+  </ion-item>
+</ion-card>
+
+<h1>Formularios</h1>
+
+
+
+<!-- Default Input -->
+<ion-input></ion-input>
+
+<!-- Input with value -->
+<ion-input value="custom"></ion-input>
+
+<!-- Input with placeholder -->
+<ion-input placeholder="Enter Input"></ion-input>
+
+<!-- Input with clear button when there is a value -->
+<ion-input clearInput value="clear me"></ion-input>
+
+<!-- Number type input -->
+<ion-input type="number" value="333"></ion-input>
+
+<!-- Disabled input -->
+<ion-input value="Disabled" disabled></ion-input>
+
+<!-- Readonly input -->
+<ion-input value="Readonly" readonly></ion-input>
+
+<!-- Inputs with labels -->
+<ion-item>
+  <ion-label>Default Label</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label position="floating">Floating Label</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label position="fixed">Fixed Label</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label position="stacked">Stacked Label</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+
+<h1>Checkbox</h1>
+
+<ion-checkbox></ion-checkbox>
+
+<!-- Disabled Checkbox -->
+<ion-checkbox disabled="true"></ion-checkbox>
+
+<!-- Checked Checkbox -->
+<ion-checkbox checked="true"></ion-checkbox>
+
+<!-- Checkbox Colors -->
+<ion-checkbox color="primary"></ion-checkbox>
+<ion-checkbox color="secondary"></ion-checkbox>
+<ion-checkbox color="danger"></ion-checkbox>
+<ion-checkbox color="light"></ion-checkbox>
+<ion-checkbox color="dark"></ion-checkbox>
+
+<!-- Checkboxes in a List -->
+<ion-list>
+  <ion-item *ngFor="let entry of form">
+    <ion-label>{{entry.val}}</ion-label>
+    <ion-checkbox slot="end" [(ngModel)]="entry.isChecked"></ion-checkbox>
+  </ion-item>
+</ion-list>
+
+
+<h1>radio buttons</h1>
+
+
+
+<ion-list>
+  <ion-radio-group value="biff">
+    <ion-list-header>
+      <ion-label>Name</ion-label>
+    </ion-list-header>
+
+    <ion-item>
+      <ion-label>Biff</ion-label>
+      <ion-radio slot="start" value="biff"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Griff</ion-label>
+      <ion-radio slot="start" value="griff"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Buford</ion-label>
+      <ion-radio slot="start" value="buford"></ion-radio>
+    </ion-item>
+  </ion-radio-group>
+</ion-list>
+
+
+
+<h1>Botones de activación (toggle)</h1>
+
+
+
+<!-- Default Toggle -->
+<ion-toggle></ion-toggle>
+
+<!-- Disabled Toggle -->
+<ion-toggle disabled></ion-toggle>
+
+<!-- Checked Toggle -->
+<ion-toggle checked></ion-toggle>
+
+<!-- Toggle Colors -->
+<ion-toggle color="primary"></ion-toggle>
+<ion-toggle color="secondary"></ion-toggle>
+<ion-toggle color="danger"></ion-toggle>
+<ion-toggle color="light"></ion-toggle>
+<ion-toggle color="dark"></ion-toggle>
+
+<!-- Toggles in a List -->
+<ion-list>
+  <ion-item>
+    <ion-label>Pepperoni</ion-label>
+    <ion-toggle [(ngModel)]="pepperoni"></ion-toggle>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Sausage</ion-label>
+    <ion-toggle [(ngModel)]="sausage" disabled="true"></ion-toggle>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Mushrooms</ion-label>
+    <ion-toggle [(ngModel)]="mushrooms"></ion-toggle>
+  </ion-item>
+</ion-list>
+
+<h1>Select o Desplegables</h1>
+
+
+
+<ion-list>
+  <ion-list-header>
+    <ion-label>
+      Single Selection
+    </ion-label>
+  </ion-list-header>
+
+  <ion-item>
+    <ion-label>Gender</ion-label>
+    <ion-select placeholder="Select One">
+      <ion-select-option value="f">Female</ion-select-option>
+      <ion-select-option value="m">Male</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Hair Color</ion-label>
+    <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+      <ion-select-option value="brown">Brown</ion-select-option>
+      <ion-select-option value="blonde">Blonde</ion-select-option>
+      <ion-select-option value="black">Black</ion-select-option>
+      <ion-select-option value="red">Red</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+</ion-list>
+
+<h1>Selectores de rango</h1>
+
+
+
+<ion-list>
+  <ion-item>
+    <ion-range color="danger" pin="true"></ion-range>
+  </ion-item>
+
+  <ion-item>
+    <ion-range min="-200" max="200" color="secondary">
+      <ion-label slot="start">-200</ion-label>
+      <ion-label slot="end">200</ion-label>
+    </ion-range>
+  </ion-item>
+
+  <ion-item>
+    <ion-range min="20" max="80" step="2">
+      <ion-icon size="small" slot="start" name="sunny"></ion-icon>
+      <ion-icon slot="end" name="sunny"></ion-icon>
+    </ion-range>
+  </ion-item>
+
+  <ion-item>
+    <ion-range min="1000" max="2000" step="100" snaps="true" color="secondary"></ion-range>
+  </ion-item>
+
+  <ion-item>
+    <ion-range min="1000" max="2000" step="100" snaps="true" ticks="false" color="secondary"></ion-range>
+  </ion-item>
+
+  <ion-item>
+    <ion-range dualKnobs="true" min="21" max="72" step="3" snaps="true"></ion-range>
+  </ion-item>
+</ion-list>
+
+<h1>Iconos</h1>
+
+<ion-icon name="checkmark-outline"></ion-icon>
+
+  </ion-content>
+
+  <ion-footer>
+    <ion-toolbar>
+      <ion-title>Pie segunda actividad</ion-title>
+    </ion-toolbar>
+  </ion-footer>
+
+
